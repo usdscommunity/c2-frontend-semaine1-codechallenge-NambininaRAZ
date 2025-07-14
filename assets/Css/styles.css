@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 4rem 5rem;
   min-height: 100vh;
@@ -25,9 +25,11 @@ body {
 }
 
 .logo {
-  width: 200px;
-  height: auto;
-  margin-bottom: 5rem;
+  text-align: left;
+}
+.logo img{
+    width: 180px;
+    margin-bottom: 2 rem;
 }
 
 .content {
@@ -85,6 +87,12 @@ body {
   color: white;
   transform: translateY(-2px);
   box-shadow: 0 7px 20px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: right;  
 }
 
 .social-links {
